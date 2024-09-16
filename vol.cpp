@@ -3,7 +3,7 @@
 
 const double RADIO_TIERRA = 6371.0;
 
-double calcularTempsVol(double lat1, double lon1, double lat2, double lon2, double velocitat) {
+ /*extern "C" __declspec(dllexport)*/ double calcularTempsVol(double lat1, double lon1, double lat2, double lon2, double velocitat) {
     lat1 = lat1 * M_PI / 180.0;
     lon1 = lon1 * M_PI / 180.0;
     lat2 = lat2 * M_PI / 180.0;

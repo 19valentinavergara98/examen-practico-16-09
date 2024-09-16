@@ -1,7 +1,14 @@
 #include <iostream>
+//#include <windows.h>
 #include "vol.h"
 
+
 int main() {
+    //typedef void (*libreriaDll)();
+//HMODULE hModule = LoadLibraryA("examen.dll");
+ // libreriaDll examen = (libreriaDll)GetProcAddress(hModule, "examen");
+  //examen();
+
     // Ubicació 1: Aeroport de Barcelona-El Prat
     double lat1 = 41.2974;
     double lon1 = 2.0833;
